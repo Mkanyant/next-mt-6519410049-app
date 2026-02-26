@@ -6,7 +6,7 @@ export default function About() {
 
       <p className="text-[30px] font-light tracking-wide">
         About{" "}
-        <span className="text-[#ff6a00] font-normal">
+        <span className="text-[#ff3c00] font-normal">
           Me
         </span>
       </p>
@@ -21,7 +21,7 @@ export default function About() {
         experiences.
       </h1>
 
-      <p className="mt-6 text-[15px] leading-[26px] text-[#9a9a9f] max-w-[680px]">
+      <p className="mt-6 text-[20px] leading-[28px] text-[#9a9a9f] max-w-[820px]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime
         tempora at neque a adipisci nulla voluptatem? Mollitia, officiis,
         architecto earum voluptates obcaecati corrupti voluptatem. Lorem ipsum

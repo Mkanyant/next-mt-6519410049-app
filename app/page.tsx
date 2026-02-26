@@ -6,14 +6,14 @@ export default function Home() {
     <>
       <p className="text-[28px] font-light tracking-wide">
         Lets Work{" "}
-        <span className="text-[#ff6a00] font-normal">
+        <span className="text-[#ff3c00] font-normal">
           Together !
         </span>
       </p>
 
       <h1 className="mt-6 text-[48px] leading-[60px] font-semibold">
         Hi From{" "}
-        <span className="text-[#ff6a00]">
+        <span className="text-[#ff3c00]">
           Kanyanat
         </span>{" "}
         ,<br />
@@ -31,7 +31,7 @@ export default function Home() {
 
       <div className="flex gap-[100px] mt-10">
         <div>
-          <h2 className="text-[45px] text-[#ff6a00] ">
+          <h2 className="text-[45px] text-[#ff3c00] ">
             3+
           </h2>
           <p className="text-[14px] text-[#9a9a9f]">
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 className="text-[45px] text-[#ff6a00] ">
+          <h2 className="text-[45px] text-[#ff3c00] ">
             10+
           </h2>
           <p className="text-[14px] text-[#9a9a9f]">

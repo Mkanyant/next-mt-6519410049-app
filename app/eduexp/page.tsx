@@ -5,7 +5,7 @@ export default function EduExp() {
     <>
       <h1 className="text-[40px] font-semibold tracking-wide">
         Education &{" "}
-        <span className="text-[#ff6a00]">
+        <span className="text-[#ff3c00]">
           Experience
         </span>
       </h1>
@@ -13,7 +13,7 @@ export default function EduExp() {
       <div className="mt-7 space-y-8 max-w-[720px] pl-7">
 
         <div>
-          <p className="text-[#ff6a00] text-[16px] font-medium">
+          <p className="text-[#ff3c00] text-[16px] font-medium">
             2022 - Present
           </p>
 

@@ -15,7 +15,7 @@ export default function Skills() {
       {/* Title */}
       <h1 className="text-[40px] font-semibold tracking-wide mt-5">
         My{" "}
-        <span className="text-[#ff6a00]">
+        <span className="text-[#ff3c00]">
           Skills
         </span>
       </h1>
@@ -119,13 +119,13 @@ function SkillCircle({
         transition-all duration-300
         ${
           active
-            ? "border-[#ff6a00]"
-            : "border-[#3a3a3f] group-hover:border-[#ff6a00]"
+            ? "border-[#ff3c00]"
+            : "border-[#3a3a3f] group-hover:border-[#ff3c00]"
         }`}
       >
         {icon}
 
-        <p className="mt-3 text-[16px] font-medium text-[#9a9a9f] group-hover:text-[#ff6a00] transition">
+        <p className="mt-3 text-[16px] font-medium text-[#9a9a9f] group-hover:text-[#ff3c00] transition">
           {percent}
         </p>
       </div>

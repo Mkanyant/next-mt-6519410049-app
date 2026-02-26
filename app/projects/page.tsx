@@ -8,7 +8,7 @@ export default function Projects() {
       {/* Title */}
       <h1 className="text-[40px] font-semibold tracking-wide pl-3">
         Featured{" "}
-        <span className="text-[#ff6a00]">
+        <span className="text-[#ff3c00]">
           Projects
         </span>
       </h1>

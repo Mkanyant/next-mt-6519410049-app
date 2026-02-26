@@ -34,7 +34,7 @@ export default function SideMenu() {
           className={`text-[26px] transition ${
             pathname === menu.path
               ? "text-orange-500"
-              : "text-[#9a9a9f] hover:text-[#ff6a00]"
+              : "text-[#9a9a9f] hover:text-[#ff3c00]"
           }`}
         >
           {menu.icon}

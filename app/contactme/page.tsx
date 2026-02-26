@@ -5,7 +5,7 @@ export default function Contact() {
     <>
       <h1 className="text-[40px] font-semibold tracking-wide">
         Contact{" "}
-        <span className="text-[#ff6a00]">
+        <span className="text-[#ff3c00]">
           Me
         </span>
       </h1>
@@ -32,7 +32,7 @@ export default function Contact() {
         <div className="mt-10 flex items-center gap-3">
           <input
             type="checkbox"
-            className="w-4 h-4 accent-[#ff6a00]"
+            className="w-4 h-4 accent-[#ff3c00]"
           />
           <p className="text-[13px] text-[#9a9a9f]">
             I would like to receive the newsletter.
@@ -68,7 +68,7 @@ function InputField({
     >
       <label
         className={`
-          text-[#ff6a00] text-[14px]
+          text-[#ff3c00] text-[14px]
           ${full ? "" : "leading-none"}
         `}
       >
@@ -82,7 +82,7 @@ function InputField({
           bg-transparent
           border-b border-[#3a3a3f]
           focus:outline-none
-          focus:border-[#ff6a00]
+          focus:border-[#ff3c00]
           text-[15px]
           ${full ? "pt-2 pb-4" : "pt-0 pb-0"}
         `}

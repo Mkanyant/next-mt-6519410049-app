@@ -16,7 +16,7 @@ export default function MyCard() {
     <div className="w-[320px] bg-black border border-[#2a2a2e] rounded-[20px] p-6 shadow-xl">
       
       <h2 className="text-[25px] tracking-wide text-white mb-1">
-        <span className="text-[#ff6a00]">K</span>anyanat
+        <span className="text-[#ff3c00]">K</span>anyanat
       </h2>
 
       <div className="rounded-[16px] overflow-hidden">
@@ -43,7 +43,7 @@ export default function MyCard() {
           href="https://www.facebook.com/mint.kanyanat.52/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-[#ff6a00] transition"
+          className="hover:text-[#ff3c00] transition"
         >
           <FaFacebookF />
         </a>
@@ -52,7 +52,7 @@ export default function MyCard() {
           href="https://github.com/Mkanyant"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-[#ff6a00] transition"
+          className="hover:text-[#ff3c00] transition"
         >
           <FaGithub />
         </a>
@@ -61,7 +61,7 @@ export default function MyCard() {
           href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-[#ff6a00] transition"
+          className="hover:text-[#ff3c00] transition"
         >
           <FaInstagram />
         </a>
@@ -70,21 +70,21 @@ export default function MyCard() {
           href="https://linkedin.com/in/yourusername"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-[#ff6a00] transition"
+          className="hover:text-[#ff3c00] transition"
         >
           <FaLinkedinIn />
         </a>
 
         <a
           href="mailto:love.0936508377@gmail.com"
-          className="hover:text-[#ff6a00] transition"
+          className="hover:text-[#ff3c00] transition"
         >
           <FaGoogle />
         </a>
 
       </div>
 
-      <button className="mt-10 w-full bg-[#ff6a00] hover:bg-[#ff7a1a] transition rounded-[12px] py-3 text-black font-semibold tracking-wider">
+      <button className="mt-10 w-full bg-[#ff6a00] hover:bg-[#ff3c00] transition rounded-[12px] py-3 text-black font-semibold tracking-wider">
         HIRE ME !
       </button>
     </div>
