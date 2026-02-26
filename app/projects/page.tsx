@@ -5,7 +5,6 @@ import task from "@/assets/images/task.png";
 export default function Projects() {
   return (
     <>
-      {/* Title */}
       <h1 className="text-[40px] font-semibold tracking-wide pl-3">
         Featured{" "}
         <span className="text-[#ff3c00]">
@@ -15,19 +14,16 @@ export default function Projects() {
 
       <div className="mt-5 max-w-[760px]">
 
-        {/* Project Title */}
         <h2 className="text-[18px] font-semibold">
           Manage Task App - fullstack web development
         </h2>
 
-        {/* Description */}
         <p className="mt-3 text-[15px] leading-[24px] text-[#9a9a9f] max-w-[640px]">
           Here’s my latest project built with Next.js and Laravel, using
           TailwindCSS on the front-end. Watch the video to see the
           responsive landing page in action!
         </p>
 
-        {/* Image */}
         <div className="mt-8">
           <Image
             src={task}

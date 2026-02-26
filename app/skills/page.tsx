@@ -12,7 +12,6 @@ import { SiNextdotjs, SiJavascript } from "react-icons/si";
 export default function Skills() {
   return (
     <>
-      {/* Title */}
       <h1 className="text-[40px] font-semibold tracking-wide mt-5">
         My{" "}
         <span className="text-[#ff3c00]">
@@ -20,7 +19,6 @@ export default function Skills() {
         </span>
       </h1>
 
-      {/* Skills Grid */}
       <div className="mt-8 grid grid-cols-4 gap-x-14 gap-y-14 max-w-[820px]">
 
         <SkillCircle
@@ -94,10 +92,6 @@ export default function Skills() {
   );
 }
 
-/* =======================
-   SkillCircle Component
-======================= */
-
 function SkillCircle({
   icon,
   percent,
@@ -111,8 +105,7 @@ function SkillCircle({
 }) {
   return (
     <div className="flex flex-col items-center group cursor-pointer">
-      
-      {/* Circle */}
+
       <div
         className={`w-[130px] h-[190px] rounded-full border
         flex flex-col items-center justify-center
@@ -130,7 +123,6 @@ function SkillCircle({
         </p>
       </div>
 
-      {/* Label */}
       <p className="mt-4 text-[15px] text-[#9a9a9f] group-hover:text-white transition">
         {label}
       </p>

@@ -19,22 +19,18 @@ export default function RootLayout({
         
         <main className="relative min-h-screen flex items-center justify-center">
           
-          {/* Container หลัก */}
           <div className="w-full max-w-[1400px] mx-auto flex items-center gap-[70px] px-10">
             
-            {/* ซ้าย : MyCard */}
             <aside className="flex-shrink-0">
               <MyCard />
             </aside>
 
-            {/* ขวา : เนื้อหาแต่ละหน้า */}
             <section className="flex-1 max-w-[700px]">
               {children}
             </section>
 
           </div>
 
-          {/* Side Menu (ลอย) */}
           <SideMenu />
 
         </main>

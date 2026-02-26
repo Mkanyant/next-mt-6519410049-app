@@ -1,15 +1,21 @@
 "use client";
 
 import Image from "next/image";
-import { 
-  FaFacebookF, 
-  FaInstagram, 
-  FaLinkedinIn, 
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
   FaGoogle,
-  FaGithub 
+  FaGithub,
 } from "react-icons/fa";
+import { Noto_Sans_Bengali } from "next/font/google";
 
 import Profile from "@/assets/images/Profile.png";
+
+const bengali = Noto_Sans_Bengali({
+  subsets: ["bengali"],
+  weight: ["400", "700"],
+});
 
 export default function MyCard() {
   return (
@@ -20,12 +26,7 @@ export default function MyCard() {
       </h2>
 
       <div className="rounded-[16px] overflow-hidden">
-        <Image
-          src={Profile}
-          alt="profile"
-          width={280}
-          height={280}
-        />
+        <Image src={Profile} alt="profile" width={280} height={280} />
       </div>
 
       <p className="mt-1 text-[18px] text-[#cfcfd4] text-center">
@@ -36,9 +37,7 @@ export default function MyCard() {
         Fullstack Web Developer
       </p>
 
-      {/* Social Icons */}
       <div className="flex justify-center gap-6 mt-6 text-[26px] text-[#d4d4d8]">
-        
         <a
           href="https://www.facebook.com/mint.kanyanat.52/"
           target="_blank"
@@ -81,10 +80,11 @@ export default function MyCard() {
         >
           <FaGoogle />
         </a>
-
       </div>
 
-      <button className="mt-10 w-full bg-[#ff6a00] hover:bg-[#ff3c00] transition rounded-[12px] py-3 text-black font-semibold tracking-wider">
+      <button
+        className={`${bengali.className} mt-10 w-full bg-[#ff6a00] hover:bg-[#ff3c00] transition rounded-[12px] py-3 text-black font-semibold tracking-wider`}
+      >
         HIRE ME !
       </button>
     </div>
